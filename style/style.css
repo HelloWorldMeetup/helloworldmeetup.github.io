@@ -8,16 +8,34 @@ body {
   color: #333;
   margin-bottom: 20px;
 }
+.main-info {
+  text-align: center;
+}
 article {
   width: 800px;
   margin: auto;
 }
 h1 {
+  font-size: 100px;
+  font-style: italic;
+  text-align: center;
+}
+h1 span {
+  font-size: 40px;
+  top: -60px;
+  position: relative;
+}
+header p {
+  font-style: italic;
+  font-size: 25px;
+  margin: 80px;
+}
+h2 {
   font-size: 57px;
   font-style: italic;
   text-align: center;
 }
-h2 {
+h3 {
   font-size: 27px;
   font-style: italic;
   text-align: center;
@@ -50,98 +68,74 @@ svg {
   margin: 70px;
 }
 .motivation a:nth-child(1) {
-  font-size: 17px;
+  font-size: 24px;
 }
 .motivation a:nth-child(2) {
-  font-size: 14px;
+  font-size: 24px;
 }
 .motivation a:nth-child(3) {
-  font-size: 25px;
+  font-size: 13px;
 }
 .motivation a:nth-child(4) {
-  font-size: 16px;
+  font-size: 24px;
 }
 .motivation a:nth-child(5) {
-  font-size: 14px;
+  font-size: 26px;
 }
 .motivation a:nth-child(6) {
-  font-size: 21px;
+  font-size: 18px;
 }
 .motivation a:nth-child(7) {
   font-size: 14px;
 }
 .motivation a:nth-child(8) {
-  font-size: 24px;
+  font-size: 22px;
 }
 .motivation a:nth-child(9) {
-  font-size: 21px;
+  font-size: 26px;
 }
 .motivation a:nth-child(10) {
-  font-size: 20px;
+  font-size: 21px;
 }
 .motivation a:nth-child(11) {
-  font-size: 25px;
+  font-size: 17px;
 }
 .motivation a:nth-child(12) {
-  font-size: 20px;
+  font-size: 21px;
 }
 .motivation a:nth-child(13) {
-  font-size: 25px;
+  font-size: 20px;
 }
 .motivation a:nth-child(14) {
-  font-size: 14px;
+  font-size: 17px;
 }
 .motivation a:nth-child(15) {
-  font-size: 19px;
+  font-size: 15px;
 }
 .motivation a:nth-child(16) {
-  font-size: 18px;
+  font-size: 17px;
 }
 .motivation a:nth-child(17) {
   font-size: 26px;
 }
 .motivation a:nth-child(18) {
-  font-size: 13px;
-}
-.motivation a:nth-child(19) {
   font-size: 23px;
 }
+.motivation a:nth-child(19) {
+  font-size: 25px;
+}
 .motivation a:nth-child(20) {
-  font-size: 21px;
-}
-.motivation a:nth-child(21) {
-  font-size: 22px;
-}
-.motivation a:nth-child(22) {
   font-size: 16px;
 }
+.motivation a:nth-child(21) {
+  font-size: 26px;
+}
+.motivation a:nth-child(22) {
+  font-size: 18px;
+}
 .motivation a:nth-child(23) {
-  font-size: 24px;
+  font-size: 23px;
 }
 .motivation a:nth-child(24) {
-  font-size: 21px;
+  font-size: 25px;
 }
-/*body {*/
-/*margin: 0;*/
-/*padding: 0;*/
-/*background: url("../img/swirl_pattern.png");*/
-/*}*/
-/*.layout {*/
-/*max-width: 400px;*/
-/*margin: auto;*/
-/*position: relative;*/
-/*}*/
-/*.title {*/
-/*top: 120px;*/
-/*position: absolute;*/
-/*max-width: 100%;*/
-/*}*/
-/*.rules {*/
-/*position: absolute;*/
-/*left: 100px;*/
-/*top: 30px;*/
-/*background: rgba(255, 255, 255, 0.47);*/
-/*padding: 5px;*/
-/*color: #333;*/
-/*font-family: 'Open Sans Condensed', sans-serif;*/
-/*}*/
