@@ -1,0 +1,119 @@
+/* Mixin to generate random number;
+   int should be 0 or 1, 1 being to make it an integer
+*/
+.makeRandom(@min: 0, @max: @min+1, @int: 0) {
+  .checkInt() {
+    @getNum: `Math.random() * (@{max} - @{min} + @{int})`;
+    @base: unit(`@{int} == 1 ? Math.floor(@{getNum}) : @{getNum}`);
+  }
+  .checkInt();
+  @randNum: @base + @min;
+}
+
+
+html, body {
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+
+}
+article {
+    width: 800px;
+    margin: auto;
+}
+h1 {
+    font-size: 57px;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+  font-size: 27px;
+  font-style: italic;
+  text-align: center;
+}
+
+img, iframe, svg {
+    display: block;
+    margin: auto;
+}
+
+iframe.youtube {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  top: 0;
+}
+
+.youtube-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+svg {
+  width: 430px;
+  margin: 10px auto;
+}
+
+.motivation {
+  text-align: center;
+  margin: 70px;
+}
+.motivation a:nth-child(1)  { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(2)  { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(3)  { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(4)  { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(5)  { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(6)  { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(7)  { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(8)  { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(9)  { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(10) { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(11) { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(12) { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(13) { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(14) { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(15) { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(16) { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(17) { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(18) { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(19) { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(20) { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(21) { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(22) { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(23) { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+.motivation a:nth-child(24) { .makeRandom(13, 26, 1); font-size: @randNum + 0px;}
+
+
+/*body {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*background: url("../img/swirl_pattern.png");*/
+/*}*/
+
+/*.layout {*/
+    /*max-width: 400px;*/
+    /*margin: auto;*/
+    /*position: relative;*/
+/*}*/
+
+/*.title {*/
+    /*top: 120px;*/
+    /*position: absolute;*/
+    /*max-width: 100%;*/
+/*}*/
+
+/*.rules {*/
+    /*position: absolute;*/
+    /*left: 100px;*/
+    /*top: 30px;*/
+    /*background: rgba(255, 255, 255, 0.47);*/
+    /*padding: 5px;*/
+    /*color: #333;*/
+    /*font-family: 'Open Sans Condensed', sans-serif;*/
+/*}*/
+

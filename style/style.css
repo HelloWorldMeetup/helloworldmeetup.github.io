@@ -1,16 +1,147 @@
-html, body {
-    font-size: 18px;
-    color: #333;
-    margin-bottom: 20px;
+/* Mixin to generate random number;
+   int should be 0 or 1, 1 being to make it an integer
+*/
+html,
+body {
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
 }
 article {
-    width: 800px;
-    margin: auto;
+  width: 800px;
+  margin: auto;
 }
 h1 {
-    text-align: center;
+  font-size: 57px;
+  font-style: italic;
+  text-align: center;
 }
-img, iframe {
-    display: block;
-    margin: auto;
+h2 {
+  font-size: 27px;
+  font-style: italic;
+  text-align: center;
 }
+img,
+iframe,
+svg {
+  display: block;
+  margin: auto;
+}
+iframe.youtube {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  top: 0;
+}
+.youtube-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+svg {
+  width: 430px;
+  margin: 10px auto;
+}
+.motivation {
+  text-align: center;
+  margin: 70px;
+}
+.motivation a:nth-child(1) {
+  font-size: 17px;
+}
+.motivation a:nth-child(2) {
+  font-size: 14px;
+}
+.motivation a:nth-child(3) {
+  font-size: 25px;
+}
+.motivation a:nth-child(4) {
+  font-size: 16px;
+}
+.motivation a:nth-child(5) {
+  font-size: 14px;
+}
+.motivation a:nth-child(6) {
+  font-size: 21px;
+}
+.motivation a:nth-child(7) {
+  font-size: 14px;
+}
+.motivation a:nth-child(8) {
+  font-size: 24px;
+}
+.motivation a:nth-child(9) {
+  font-size: 21px;
+}
+.motivation a:nth-child(10) {
+  font-size: 20px;
+}
+.motivation a:nth-child(11) {
+  font-size: 25px;
+}
+.motivation a:nth-child(12) {
+  font-size: 20px;
+}
+.motivation a:nth-child(13) {
+  font-size: 25px;
+}
+.motivation a:nth-child(14) {
+  font-size: 14px;
+}
+.motivation a:nth-child(15) {
+  font-size: 19px;
+}
+.motivation a:nth-child(16) {
+  font-size: 18px;
+}
+.motivation a:nth-child(17) {
+  font-size: 26px;
+}
+.motivation a:nth-child(18) {
+  font-size: 13px;
+}
+.motivation a:nth-child(19) {
+  font-size: 23px;
+}
+.motivation a:nth-child(20) {
+  font-size: 21px;
+}
+.motivation a:nth-child(21) {
+  font-size: 22px;
+}
+.motivation a:nth-child(22) {
+  font-size: 16px;
+}
+.motivation a:nth-child(23) {
+  font-size: 24px;
+}
+.motivation a:nth-child(24) {
+  font-size: 21px;
+}
+/*body {*/
+/*margin: 0;*/
+/*padding: 0;*/
+/*background: url("../img/swirl_pattern.png");*/
+/*}*/
+/*.layout {*/
+/*max-width: 400px;*/
+/*margin: auto;*/
+/*position: relative;*/
+/*}*/
+/*.title {*/
+/*top: 120px;*/
+/*position: absolute;*/
+/*max-width: 100%;*/
+/*}*/
+/*.rules {*/
+/*position: absolute;*/
+/*left: 100px;*/
+/*top: 30px;*/
+/*background: rgba(255, 255, 255, 0.47);*/
+/*padding: 5px;*/
+/*color: #333;*/
+/*font-family: 'Open Sans Condensed', sans-serif;*/
+/*}*/
