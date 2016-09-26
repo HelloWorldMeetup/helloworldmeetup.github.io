@@ -1,0 +1,16 @@
+html, body {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+article {
+    width: 800px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+img, iframe {
+    display: block;
+    margin: auto;
+}
